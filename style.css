@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover; /* This will ensure the image covers the entire background */
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 30ch;
+  margin: 16px 0px ;
+}
+
+
+.hero_image{
+  padding: 3rem 0px;
+  width: 100%;
+
+}
+.hero_wrapper{
+  padding: 7rem 7rem 0rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 5rem;
+  text-align: center;
+  margin: 0px;
+}
+
+.event_wrapper{
+  display: flex;
+  flex-direction: column;
+align-items: center;}
+
+.event-image{
+  padding: 3rem 0px;
+  width: 100vw;
+}
+h2{
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0px;
+}
